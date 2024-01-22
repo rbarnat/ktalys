@@ -86,7 +86,7 @@
 
       // Loading Header and Footer
       $(function(){
-        $("#header").load("header.html"); 
+        $("#header-light").load("header-light.html"); 
         $("#footer").load("footer.html"); 
       });
   
