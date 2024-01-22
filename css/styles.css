@@ -7266,10 +7266,10 @@ h3 {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
+      color: #39a2a6;
       background: #1f2d41; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #fff;
+        color: #39a2a6;
         background: #1f2d41; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -7318,13 +7318,12 @@ h3 {
       font-size: 1.5rem; }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem; }
+  font-size: 2.25rem;}
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
-    line-height: 2.5rem; } }
+    line-height: 3.5rem; } }
 
 .portfolio-modal .close {
   position: absolute;
@@ -7381,7 +7380,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #39a2a6;
+  background-color: #92A7AD;
   color: #fff; }
 
 .copyright {
@@ -7425,7 +7424,9 @@ form .row:first-child .floating-label-form-group {
   width: 10rem; }
 
 .banniere {
-  width: 35rem; }
+  display: flex;
+  height:9rem;
+  justify-content: center;}
 
 #overlay {
   position: fixed;
@@ -7491,4 +7492,9 @@ width: 34px;
 }
 .cnt223 .x:hover{
 cursor: pointer;
+}
+
+em {
+  color: #1F2D41;
+  font-weight: bold;
 }
