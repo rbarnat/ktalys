@@ -7426,8 +7426,16 @@ form .row:first-child .floating-label-form-group {
 .banniere {
   display: flex;
   height:9rem;
-  justify-content: center;
-  min-width: 320px; }
+  justify-content: center; }
+
+@media (max-width: 530px) {
+  .banniere {
+    display: flex;
+      width: 100%;
+      max-width: 300px;
+      justify-content: center;
+  }
+}
 
 #overlay {
   position: fixed;
