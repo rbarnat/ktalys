@@ -7431,9 +7431,9 @@ form .row:first-child .floating-label-form-group {
 @media (max-width: 530px) {
   .banniere {
     display: flex;
-      width: 100%;
-      max-width: 300px;
-      justify-content: center;
+    height:5rem;
+    object-fit: cover;
+    justify-content: center;
   }
 }
 
