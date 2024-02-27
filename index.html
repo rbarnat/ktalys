@@ -25,54 +25,56 @@
         <meta property="og:image" content="https://www.ktalys.re/assets/img/ktalys_banniere.png" />
         <!-- microdonnées JSON-LD-->
         <script type="application/ld+json">
-            [
-                {
-                    "@context": "http://schema.org/",
-                    "@type": "Product",
-                    "url": "https://www.ktalys.re/index.html",
-                    "name": "Création de Site vitrine avancé (multipage ou blog)",
-                    "image": ["https://www.ktalys.re/assets/img/portfolio/developpement-site-web.jpg"],
-                    "description": "Création de Site vitrine avancé (multipage ou blog)",
-                    "offers": 
-                    [
-                        {
-                            "@type": "Offer",
-                            "priceCurrency": "EUR",
-                            "price": "1000",
-                            "priceValidUntil": "2025-01-01",
-                            "availability": "https://schema.org/InStock",
-                            "seller":
-                                {
-                                "@type": "Organization",
-                                "name": "K-Talys"
-                                }
-                        }
-                    ]
-                },
-                {
-                    "@context": "http://schema.org/",
-                    "@type": "Product",
-                    "url": "https://www.ktalys.re/index.html",
-                    "name": "Création de Site vitrine avancé (multipage ou blog)",
-                    "image": ["https://www.ktalys.re/assets/img/portfolio/developpement-site-web.jpg"],
-                    "description": "Création de Site vitrine avancé (multipage ou blog)",
-                    "offers": 
-                    [
-                        {
-                            "@type": "Offer",
-                            "priceCurrency": "EUR",
-                            "price": "1500",
-                            "priceValidUntil": "2025-01-01",
-                            "availability": "https://schema.org/InStock",
-                            "seller":
-                                {
-                                "@type": "Organization",
-                                "name": "K-Talys"
-                                }
-                        },
-                    ]
-                }
-            ]
+            {
+                "@context": "http://schema.org/",
+                "@graph":
+                [
+                    {
+                        "@type": "Product",
+                        "url": "https://www.ktalys.re/index.html",
+                        "name": "Création de Site vitrine one page",
+                        "image": ["https://www.ktalys.re/assets/img/portfolio/developpement-site-web.jpg"],
+                        "description": "Création de Site vitrine one page",
+                        "offers": 
+                        [
+                            {
+                                "@type": "Offer",
+                                "priceCurrency": "EUR",
+                                "price": "1000",
+                                "priceValidUntil": "2025-01-01",
+                                "availability": "https://schema.org/InStock",
+                                "seller":
+                                    {
+                                    "@type": "Organization",
+                                    "name": "K-Talys"
+                                    }
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "Product",
+                        "url": "https://www.ktalys.re/index.html",
+                        "name": "Création de Site vitrine avancé (multipage ou blog)",
+                        "image": ["https://www.ktalys.re/assets/img/portfolio/developpement-site-web.jpg"],
+                        "description": "Création de Site vitrine avancé (multipage ou blog)",
+                        "offers": 
+                        [
+                            {
+                                "@type": "Offer",
+                                "priceCurrency": "EUR",
+                                "price": "1500",
+                                "priceValidUntil": "2025-01-01",
+                                "availability": "https://schema.org/InStock",
+                                "seller":
+                                    {
+                                    "@type": "Organization",
+                                    "name": "K-Talys"
+                                    }
+                            }
+                        ]
+                    }
+                ]
+            }
         </script>
     </head>
     </head>
