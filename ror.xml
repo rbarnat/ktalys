@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.ktalys.re/</title>
+  <link>https://www.ktalys.re/</link>
+
+<item>
+     <link>https://www.ktalys.re/</link>
+     <title>K-talys : développement de site web et optimisation SEO</title>
+     <description>K-talys : l'accélérateur de vos projets à la Réunion. Création de site web, optimisation SEO, intégration de contenu, paramétrage de nom de domaine, maintenance annuelle de site web.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
