@@ -1,1 +1,1 @@
-
+# Début HTTP Strict Transport Security pour obliger le client à utiliser uniquement des connexions sécurisées   Header always set Strict-Transport-Security "max-age=300; includeSubDomains; preload"  # Fin HTTP Strict Transport Security pour obliger le client à utiliser uniquement des connexions sécurisées
